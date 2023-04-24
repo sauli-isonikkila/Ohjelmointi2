@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="scripts/main.js"></script>
+
+</head>
+<body>
+<form id="tiedot">
+<table>
+	<thead>
+		<tr>
+			<th>Nimi</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><input type="text" name="nimi" id="nimi"></td>
+			<td><input type="button" name="nappi" id="tallenna" value="Lähetä" onclick="lahetaTiedot()"></td>
+		</tr>
+	</tbody>
+</table>
+</form>
+
+<span id="ilmo"></span>
+
+<script>
+document.getElementById("nimi").focus(); // aktivoidaan kursori nimi-kenttaan sivun latauksen yhteydessa.
+
+function lahetaTiedot(){	
+	var formJsonStr=formDataToJSON(document.getElementById("tiedot")); //muutetaan lomakkeen tiedot json-stringiksi
+
+	fetch("otavastaan/",{
+	      method: 'POST',
+	      body:formJsonStr
+	    })
+	.then( function (responseJson) {
+		var vastaus = responseJson.response;		
+		if(vastaus==0){
+			document.getElementById("ilmo").innerHTML= "epaonnistui";
+        }else if(vastaus==1){	        	
+        	document.getElementById("ilmo").innerHTML= "onnistui";			      	
+		}	
+	});		
+}
+</script>
+</body>
+</html>
