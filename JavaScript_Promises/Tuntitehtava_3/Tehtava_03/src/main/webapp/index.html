@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Tehtävä 03</title>
+	</head>
+	<body>
+		<table id="listaus">
+			<thead>
+				<tr><button onclick="haeTiedot()" >Hae</button>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+			
+			</tbody>
+		</table>
+			
+			
+	
+		
+	
+	</body>
+	<script >
+		function haeTiedot() {
+			fetch("laheta/", {method: "GET"})
+			.then(function (response) {
+					return response.json();
+				}
+			).then(function(responseJson){
+				let data = responseJson.viesti;
+				let htmlStr = data;
+				document.getElementById("tbody").innerHTML = htmlStr;
+				
+			});	
+		}
+	</script>
+</html>
