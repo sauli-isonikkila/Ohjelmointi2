@@ -1,4 +1,4 @@
-# Tehtävä a:
+# Tehtävä 5a:
 
 Rekisteröidy GitHubin ilmaisversion käyttäjäksi. Asenna sen jälkeen koneellesi GitHub Desktop. Luo GitHub Desktopissa public repository lokaalille koneellesi. Commit:oi repository:si. Push:aa se sen jälkeen GitHub palvelimelle.  
 

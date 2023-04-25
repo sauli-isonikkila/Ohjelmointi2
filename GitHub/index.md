@@ -5,4 +5,4 @@
 [ Opetusvideo: GitHub, uusi repository, uusi projekti, commit, push ](https://video.haaga-helia.fi/media/GitHub_kaytto-ohje.wmv/0_e4ikcizu)  
 
 # Tehtävät:  
-[Tehtävä a](./Tehtava_a/index.md)  
+[Tehtävä 5b](./Tehtava_5b/index.md)  
