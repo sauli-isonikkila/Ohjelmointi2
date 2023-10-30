@@ -3,4 +3,4 @@
  
 
 # Tehtävät:
-[ Tehtävä 1 ]( Tehtava_1/index.md ) 
+[ Tehtävä 1 ]( Tehtävä_1/index.md ) 
