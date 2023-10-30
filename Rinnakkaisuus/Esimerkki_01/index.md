@@ -1,5 +1,5 @@
 # Esimerkki 1:
-Tässä esimerkissä periytetään Ohjelma -nimiseen luokaan Thread luokasta ominaisuudet Java säikeistä (Threard). 
+Tässä esimerkissä periytetään Ohjelma -nimiseen luokaan Thread luokasta ominaisuudet Java säikeistä (Thread). 
 
 Periytetyn Thread -luokan avulla voi luoda run() metodin Ohjelma luokkaan. Tässä run() metodissa on kaikki se ohjelma koodi, joka ajetaan Java säikessä (Thread). Esimerkiksi tulostetaan haluttu teksti konsoli-ikkunaan. Mutta ohjelma koodi voisi olla muutakin.
 
