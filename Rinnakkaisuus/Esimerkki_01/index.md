@@ -5,6 +5,7 @@ Periytetyn Thread -luokan avulla voi luoda run() metodin Ohjelma luokkaan. Täss
 
 Nyt kun run -metodi on saatu tehty, voitaisiin se ajaa käyntiin. Se saadaan tehtyä esimerkiksi Ohjelma -luokassa, luomallaa Ohjelma luokasta (rekursiivisesti) olio. Tämän olion start -metodilla voimme käynnistää Java säikeen.
 
-![](./)
+![Esimerkkiajo](./Kuva_01.PNG)<br>
+Esimerkkiajo.
 
 

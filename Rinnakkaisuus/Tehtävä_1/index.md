@@ -6,7 +6,8 @@ Tee Java luokka, jonka nimi on Laskukone ja periytä siihen Threads luokka, joll
 Thread -luokan periyttäminen LAskukone -luokkaan mahdollistaa run metodin. Tämä mahdollistaa run -metodissa Java säikeessä ajettavan ohjelmakoodin. Tee tässä siihen laskuri, joka kasvattaa sum muuttujan arvoa yhdellä (sum++) ja tulosta arvo konsoli-ikkunaan. 
 
 
-![](./)
+![Esimerkkiajo](./Kuva_01.PNG)<br>
+Esimerkkiajo.
 
 
 Tee ratkaisustasi zip -paketti ja palauta se vastauksenasi palautuslinkkiin Moodleen.
