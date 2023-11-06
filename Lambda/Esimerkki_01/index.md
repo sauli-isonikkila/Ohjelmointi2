@@ -5,7 +5,7 @@ Tämä jälkeen tulostus suoritetaan .forEach -metodia käyttäen siten, että t
 
 Tässä esimerkissä tulostus tehdään konsoli-ikkunaan.
 
-Esimerkkikoodi on:
+Esimerkkikoodi on: <br>
 <code>
 package lista;
 
