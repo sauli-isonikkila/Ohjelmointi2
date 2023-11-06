@@ -1,8 +1,12 @@
 # Tehtävä 1:
-Tee Java luokka, jonka nimi on 
+Tee Java LaskePisteetYhteen -luokka, jonka avulla pystyy laskemaan viikon aikana saamansa päivittäiset pisteet main -metodissa. Pisteet annetaan konsoli-ikkunassa. 
+
+Suorita pisteiden yhteenlaskenta Lambda -funktiota käyttäen. Tulostus yhteenlasketuista pisteistä tulostetaan konsoli-ikkunaan. 
+
+Käytä summan laskemiseen Summa -nimistä luokka. Tulosta sinne kertynyt tulos main -metodissa lopuksi konsoli-ikkunaan.
 
 
-![Esimerkkiajo]()<br>
+![Esimerkkiajo](./Kuva_01.PNG)<br>
 Esimerkkiajo.
 
 
