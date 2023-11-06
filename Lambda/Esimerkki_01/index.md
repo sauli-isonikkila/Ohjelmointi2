@@ -30,7 +30,6 @@ public class ListanLapiKayntiOhjelma {
 </code>
 
 ![Esimerkkiajo](./Kuva_01.PNG)<br>
-Esimerkkiajo.
+Esimerkkiajo.<br>
 
-Ohjelmakoodi löytyy myös GitHub:ista osoittesta: 
-
+[Ohjelmakoodi löytyy myös GitHub:ista osoittesta: ](https://github.com/sauli-isonikkila/Ohjelmointi2/tree/6a6311173360e019f17bfcce5d9821b4a3d2a971/Lambda/Esimerkki_01 )
