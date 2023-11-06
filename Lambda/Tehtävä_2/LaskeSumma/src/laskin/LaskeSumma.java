@@ -14,7 +14,7 @@ public class LaskeSumma {
 		System.out.print("Anna numero 2: ");
 		double num2 = input.nextDouble();
 
-		sum.setSum( ( num1, num2 ) -> { num1 + num2});
+		sum.setSum( ( ) -> { num1 + num2});
 	}
 
 }
