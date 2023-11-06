@@ -3,9 +3,9 @@ Tee Java luokka, jonka nimi on Laskukone ja periytä siihen Thread luokka, jollo
 
  Laskukone luokasta luodaan rekursiivisesti yksi Lakukone -luokka tyyppinen olio main -metodissa. Aja tämän jälkeen säie käyntiin main -metodissa, eli kutsu luomasi olion start -metodia. 
  
- Jatka tämän jälkeen kasvattamalla main -metodissa sum muuttujan arvoa yhdellä ylöspäin ja tulosta saatu arvo konsoli-ikkunaan.
+ Jatka tämän jälkeen säikeen ulkopuolella kasvattamalla main -metodissa sum muuttujan arvoa yhdellä ylöspäin ja tulosta saatu arvo konsoli-ikkunaan.
 
-Thread -luokan periyttäminen LAskukone -luokkaan mahdollistaa run metodin. Tämä mahdollistaa run -metodissa Java säikeessä ajettavan ohjelmakoodin. Tee tässä siihen laskuri, joka kasvattaa sum muuttujan arvoa yhdellä (sum++) ja tulosta arvo konsoli-ikkunaan. 
+Thread -luokan periyttäminen LAskukone -luokkaan mahdollistaa run metodin käyttämisen. Ja tässä  run -metodissa on mahdollista ajaa haluttua oohjelmaa Java säikeessä. Tee tässä run metodiin laskuri, joka kasvattaa sum muuttujan arvoa yhdellä (sum++) ja tulosta arvo konsoli-ikkunaan. 
 
 
 ![Esimerkkiajo](./Kuva_01.PNG)<br>
