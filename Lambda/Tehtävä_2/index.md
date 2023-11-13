@@ -1,5 +1,5 @@
 # Tehtävä 2:
-Tee Java rajapinta eli interface (IAddable), jossa saa olla Lambda funktioiden yhteydessä vain täsmälleen yksi metodi 
+Tee Java rajapinta eli interface (IAddable), jossa saa olla Lambda funktioiden yhteydessä vain täsmälleen yksi metodi. Esimerkiksi: 
 
 double add(double n1, double n2); 
 
