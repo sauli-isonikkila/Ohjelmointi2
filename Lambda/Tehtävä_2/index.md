@@ -1,0 +1,18 @@
+# Tehtävä 2:
+Tee Java rajapinta eli interface (IAddable), jossa saa olla Lambda funktioiden yhteydessä vain täsmälleen yksi metodi 
+
+double add(double n1, double n2); 
+
+kahden desimaaliluvun yhteenlaskemiseksi. 
+
+Luo LaskeSumma Java luokka ja siihen main -metodi, jossa pystytään kysymään käyttäjältä kaksi desimaalinumeroa. Määritä tämän jälkeen Lambda lause, jossa on kaksi parametria (esim. n1 ja m2). Laske näiden parametrien arvot yhteen tässä Lambda lauseessa. Tarvitset tässä ensin luomaasi IAddable rajapintaa toteuttaaksesi rajapinnassa olevan add metodin:
+
+IAddable sum =  (n1, n2) -> (  n1 + n2 );
+
+Tulosta yhteenlaskun tulos konsoli-ikkunaan alla olevan kuvan mukaisesti.
+
+![Esimerkkiajo](./Kuva_01.PNG)<br>
+Esimerkkiajo.
+
+
+Tee ratkaisustasi zip -paketti ja palauta se vastauksenasi palautuslinkkiin Moodleen.
