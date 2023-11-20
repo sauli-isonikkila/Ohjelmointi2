@@ -1,5 +1,13 @@
 # Tehtävä 1:
-Tee StreamSanat Java luokka, jonka avulla pystyy lisäämään listaan (ArrayList) viisi sana.
+Tee StreamSanat Java luokka, jonka avulla pystyy lisäämään listaan (ArrayList) sanat:
+
+talo
+on
+punainen
+ja 
+sijaitsee
+tuulisella
+mäellä
 
 Käytä tämän jälkeen ohjelmassasi Java Stream:ia löytääksesi lista tietorakenteesta sanat, joissa merkkejä on 4 merkkiä tai enemmän. Laske samalla näiden sanojen lukumäärä.
 
