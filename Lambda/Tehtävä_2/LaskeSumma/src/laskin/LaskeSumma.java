@@ -22,7 +22,19 @@ public class LaskeSumma {
 			return s;
 			};
 		
-		System.out.println("Summa on " + sum.add(num1, num2));
+			
+		IAddable vahennysLasku =  (double n1, double n2) -> { 
+				
+				double s = 0;
+				s = n1 - n2; 
+				return s;
+		};
+		
+		
+				
+		System.out.println("Summa on " + sum.execute(num1, num2));
+		
+		System.out.println("Erotus on " + vahennysLasku.execute(num1, num2));
 	}
 
 }

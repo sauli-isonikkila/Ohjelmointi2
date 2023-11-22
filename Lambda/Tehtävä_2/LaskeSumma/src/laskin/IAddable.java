@@ -1,5 +1,6 @@
 package laskin;
 
 public interface IAddable {
-	double add(double n1, double n2);
+	double execute(double n1, double n2);
+
 }
