@@ -5,11 +5,13 @@ double execute(double n1, double n2);
 
 kahden desimaaliluvun yhteenlaskemiseksi. 
 
-Luo LaskeSumma Java luokka ja siihen main -metodi, jossa pystytään kysymään käyttäjältä kaksi desimaalinumeroa. Määritä tämän jälkeen Lambda lause, jossa on kaksi parametria (esim. n1 ja m2). Laske näiden parametrien arvot yhteen tässä Lambda lauseessa. Tarvitset tässä ensin luomaasi IAddable rajapintaa toteuttaaksesi rajapinnassa olevan execute metodin:
+Luo LaskeSumma Java luokka ja siihen main -metodi, jossa pystytään kysymään käyttäjältä kaksi desimaalinumeroa. Määritä tämän jälkeen Lambda lause, jossa on kaksi parametria (esim. n1 ja m2). Laske näiden parametrien arvot yhteen tässä Lambda lauseessa. Tarvitset tässä ensin luomaasi ICalculate rajapintaa toteuttaaksesi rajapinnassa olevan execute metodin:
 
 IAddable sum =  (n1, n2) -> (  n1 + n2 );
 
 ja 
+
+Vähennyslaskun laskemiseksi:
 
 IAddable vahennysLasku =  (n1, n2) -> (  n1 - n2 );
 
