@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class TuotteetApp {
 	
-	 private static final String JDBC_CONNECTION_STRING = "jdbc:sqlite:data/Chinook_Sqlite.sqlite";
+	 private static final String JDBC_CONNECTION_STRING = "jdbc:sqlite:data/Tuotteet.sqlite";
 
 	public static void main(String[] args) {
 		Connection connection = null;
@@ -20,7 +20,7 @@ public class TuotteetApp {
             connection = DriverManager.getConnection(JDBC_CONNECTION_STRING);
 
             // Create a prepared statement to execute a query
-            preparedStatement = connection.prepareStatement("SELECT ArtistId, Name FROM Artist ORDER BY ArtistId ASC");
+            preparedStatement = connection.prepareStatement("SELECT pizzaID, nimi FROM pizzat ORDER BY nimi ASC");
 
             // Execute the query and get the result set
             resultSet = preparedStatement.executeQuery();
@@ -41,7 +41,7 @@ public class TuotteetApp {
                  * the column in the result set. There are also methods for other types of
                  * data, such as getInt() and getDouble().
                  */
-                String name = resultSet.getString("Name");
+                String name = resultSet.getString("nimi");
 
                 System.out.println(name);
             }
@@ -79,6 +79,10 @@ public class TuotteetApp {
                 e.printStackTrace();
             }
 
-	}
+        }
 
+
+	}
 }
+
+
