@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+INDEX VERSION 1.131+C:\Git\Ohjelmointi2\JDBC\Esimerkki_01_JDBC\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1374943251.index
+=======
+INDEX VERSION 1.131+E:\git\Ohjelmointi2\JDBC\Esimerkki_01_JDBC\.metadata\.plugins\org.eclipse.jdt.core
+>>>>>>> a4e5a3ce3e36f6d3e56463addd2f84c9dd98e797
+63753894.index
+1865797976.index
