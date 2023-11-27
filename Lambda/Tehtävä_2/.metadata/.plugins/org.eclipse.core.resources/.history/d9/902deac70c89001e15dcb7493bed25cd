@@ -1,0 +1,21 @@
+package laskin;
+
+public class LaskeSumma2 {
+
+	public static void main(String[] args) {
+		// Kysytään käyttäjältä kaksi desimaalinumeroa:
+		
+		
+		
+		
+		
+		ISumma sum = (double n1, double n2 ) -> {
+			double summa = 0;
+			summa = n1 + n2;
+			return summa;
+		};
+		
+
+	}
+
+}

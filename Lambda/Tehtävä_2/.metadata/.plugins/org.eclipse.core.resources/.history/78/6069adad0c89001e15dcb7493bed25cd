@@ -1,0 +1,19 @@
+package laskin;
+
+public class LaskeSumma2 {
+
+	public static void main(String[] args) {
+		// Kysytään käyttäjältä kaksi desimaalinumeroa:
+		
+		
+		
+		
+		
+		ISumma sum = () -> {
+			
+		};
+		
+
+	}
+
+}

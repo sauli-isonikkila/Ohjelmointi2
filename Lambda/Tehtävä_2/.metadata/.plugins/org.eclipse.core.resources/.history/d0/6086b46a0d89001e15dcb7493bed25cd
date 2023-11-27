@@ -1,0 +1,5 @@
+package laskin;
+
+public interface ISumma {
+	public double add(double num1, double num);
+}
