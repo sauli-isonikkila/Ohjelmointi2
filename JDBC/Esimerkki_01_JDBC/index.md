@@ -11,5 +11,3 @@ Tulosta lopuksi saamasi tulos konsoli-ikkunaan.
 ![Esimerkkiajo](./Kuva_01.PNG)<br>
 Esimerkkiajo.
 
-
-Tee ratkaisustasi zip -paketti ja palauta se vastauksenasi palautuslinkkiin Moodleen.
