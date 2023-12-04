@@ -3,7 +3,7 @@ Tee LippuApp Java luokka, jonka avulla pystyy sen main -metodissa ottamaan yhtey
 
 Import:aa tämän jälkeen LippuApp luokkaan kaikki ne kirjastot, joita tarvitaan Java Application:ssa JDBC:n käyttämiseksi tietokantojen yhteydessä.
 
-Luo tämän jälkeen yhteys SQLite tietokantaasi ja hae poikkeuksen hallinnan alaisuudessa sieltä kaikkien niiden lippujen konserttinimet, hinnat jotka tietokantaasi on talletettu.
+Luo tämän jälkeen yhteys SQLite tietokantaasi ja hae poikkeuksen hallinnan alaisuudessa sieltä kaikkien niiden lippujen tapahtuma nimet ja hinnat jotka tietokantaasi on talletettu.
 
 Tulosta lopuksi saamasi tulos konsoli-ikkunaan.
 
