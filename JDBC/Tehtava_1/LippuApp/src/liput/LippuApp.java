@@ -14,6 +14,10 @@ public class LippuApp {
 		Connection connection = null;
        PreparedStatement preparedStatement = null;
        ResultSet resultSet = null;
+       
+       int id;
+       String name;
+       double price;
 
        try {
            // Create a connection to the database
@@ -33,10 +37,6 @@ public class LippuApp {
             * If next() returns false, then there are no more rows in the result set, and
             * the loop terminates.
             */
-           
-           int id;
-           String name;
-           double price;
            
            while (resultSet.next()) {
                /*
